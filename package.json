@@ -1,0 +1,40 @@
+{
+    "name": "react-native-ios-activitykit",
+    "version": "0.1.0",
+    "description": "Generic, customizable Expo module for iOS Live Activities and Dynamic Island",
+    "main": "build/index.js",
+    "types": "build/index.d.ts",
+    "scripts": {
+        "build": "expo-module build",
+        "clean": "expo-module clean",
+        "lint": "expo-module lint",
+        "test": "expo-module test",
+        "prepare": "expo-module prepare",
+        "prepublishOnly": "expo-module prepublishOnly",
+        "expo-module": "expo-module"
+    },
+    "keywords": [
+        "react-native",
+        "expo",
+        "ios",
+        "live-activities",
+        "dynamic-island",
+        "activitykit"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/react-native-ios-activitykit.git"
+    },
+    "bugs": {
+        "url": "https://github.com/yourusername/react-native-ios-activitykit/issues"
+    },
+    "author": "Bluejutzu <bluejutzu@icloud.com>",
+    "license": "MIT",
+    "homepage": "https://github.com/bluejutzu/react-native-ios-activitykit#readme",
+    "devDependencies": {
+        "expo-module-scripts": "^3.5.2"
+    },
+    "peerDependencies": {
+        "expo": "*"
+    }
+}

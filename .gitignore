@@ -1,0 +1,24 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build
+build/
+*.tsbuildinfo
+
+# macOS
+.DS_Store
+
+# iOS
+*.xcworkspace
+*.xcuserdata
+Pods/
+ios/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
