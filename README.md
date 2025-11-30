@@ -13,28 +13,22 @@ A generic, customizable Expo module for implementing iOS Live Activities and Dyn
 ## Installation
 
 ```bash
+# Npm
 npm install react-native-ios-activitykit
-```
 
-Or with yarn:
-
-```bash
+# Yarn
 yarn add react-native-ios-activitykit
+
+# Pnpm
+pnpm add react-native-ios-activitykit
+
+# Bun
+bun add react-native-ios-activitykit
 ```
 
 ## Configuration
 
-### 1. Add to your Expo app's `package.json`:
-
-```json
-{
-  "dependencies": {
-    "react-native-ios-activitykit": "file:../path/to/react-native-ios-activitykit"
-  }
-}
-```
-
-### 2. Configure Info.plist
+### 1. Configure Info.plist
 
 Add Live Activities support to your `app.json` or `app.config.js`:
 
@@ -50,7 +44,7 @@ Add Live Activities support to your `app.json` or `app.config.js`:
 }
 ```
 
-### 3. Run prebuild
+### 2. Run prebuild
 
 ```bash
 npx expo prebuild -p ios
